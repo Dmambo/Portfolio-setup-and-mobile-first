@@ -8,6 +8,8 @@
 
 ## Getting Started
 
+**to begin using you need to clone the repository into your ide**
+
 **This is the second project created on microverse education by me.**
 
 
