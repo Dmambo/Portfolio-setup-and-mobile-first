@@ -9,7 +9,7 @@
 
 .head {
   color: #6070ff;
-  padding: 24px;  
+  padding: 24px;
   text-align: center;
 }
 
@@ -41,7 +41,7 @@ header {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  color: #172b4d;  
+  color: #172b4d;
 }
 
 .text h4 {
@@ -229,5 +229,4 @@ header {
     left: 341.76px;
     top: 526.69px;
   }
-
 }
