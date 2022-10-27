@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +19,6 @@ header {
 }
 
 .logo {
-    
   margin-top: 14px;
   font-size: 18px;
   font-weight: 700;
@@ -61,7 +61,7 @@ header {
   line-height: 24px;
 }
 
-.social-media ul li{
+.social-media ul li {
   display: flex;
   text-decoration: none;
 }
