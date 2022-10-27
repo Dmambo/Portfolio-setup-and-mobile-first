@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +18,7 @@ header {
 }
 
 .logo {
+    
   margin-top: 14px;
   font-size: 18px;
   font-weight: 700;
@@ -35,35 +35,38 @@ header {
   padding: 0 24px;
 }
 
-.text h2 {
+.text h1 {
   display: flex;
   align-items: center;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   color: #172b4d;
+  margin-bottom: 28px;
 }
 
-.text h4 {
+.text p {
   color: #344563;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   order: 1;
+  margin-bottom: 28px;
 }
 
-.social-text p {
+.text .social-text p {
   font-size: 16px;
   font-weight: 500;
   color: #7f8cff;
   line-height: 24px;
 }
 
-.social-media {
+.social-media ul li{
   display: flex;
+  text-decoration: none;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 400px) {
   .shapes .siderec {
     position: absolute;
     width: 51.99px;
@@ -120,28 +123,28 @@ header {
     top: 155.81px;
   }
 
-  .text h2 {
+  .text h1 {
     margin-top: 124px;
     left: 24px;
-    width: 327px;
+    width: 307px;
     height: 150px;
     padding-top: 24px;
   }
 
-  .text h4 {
+  .text p {
     margin-top: 15px;
     top: 276px;
     left: 24px;
-    width: 327px;
+    width: 307px;
     height: 146px;
   }
 
-  .social-text p {
+  .text .social-text p {
     margin-top: 15px;
     height: 24px;
   }
 
-  .social-media .twitter {
+  .text .social-media ul li .twitter {
     position: absolute;
     left: 6.4%;
     right: 88.27%;
@@ -149,7 +152,7 @@ header {
     bottom: 18.88%;
   }
 
-  .social-media .linkedin .i {
+  .social-media ul li .linkedin .i {
     position: absolute;
     left: 16.8%;
     right: 81.87%;
@@ -157,7 +160,7 @@ header {
     bottom: 18.87%;
   }
 
-  .social-media .linkedin .n {
+  .social-media ul li .linkedin .n {
     position: absolute;
     left: 18.74%;
     right: 77.87%;
@@ -165,7 +168,7 @@ header {
     bottom: 18.87%;
   }
 
-  .social-media .medium {
+  .social-media ul li .medium {
     position: absolute;
     left: 27.47%;
     right: 67.2%;
@@ -173,7 +176,7 @@ header {
     bottom: 19.21%;
   }
 
-  .social-media .git {
+  .social-media ul li .git {
     position: absolute;
     left: 38.13%;
     right: 57.07%;
@@ -181,7 +184,7 @@ header {
     bottom: 18.87%;
   }
 
-  .social-media .twinny {
+  .social-media ul li .twinny {
     position: absolute;
     left: 48%;
     right: 48.22%;
