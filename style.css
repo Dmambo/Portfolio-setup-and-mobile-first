@@ -29,7 +29,6 @@ header {
 
 .head .navbar {
   font-size: 22px;
-
 }
 
 .text {
@@ -56,13 +55,12 @@ header {
 .social-text p {
   font-size: 16px;
   font-weight: 500;
-  color: #7F8cff;
+  color: #7f8cff;
   line-height: 24px;
 }
 
 .social-media {
   display: flex;
-
 }
 
 @media screen and (max-width: 750px) {
@@ -135,13 +133,12 @@ header {
     top: 276px;
     left: 24px;
     width: 327px;
-    height: 146px;      
+    height: 146px;
   }
 
   .social-text p {
     margin-top: 15px;
     height: 24px;
-    
   }
 
   .social-media .twitter {
