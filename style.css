@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* GENERAL STYLING  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-position-y: 90%;
+  width: 375px;
+  height: 718px;
+}
+
+/* LOGO AND NAVBAR STYLING  */
+.head {
+  color: #6070ff;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 76px;
+  height: 20px;
+}
+
+.logo a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header.navbar i {
+  font-size: 22px;
+  padding-right: 27px;
+}
+
+/* TEXT STYLING  */
+.text {
+  padding: 0 24px;
+}
+
+.text h1 {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+  margin-bottom: 28px;
+  margin-top: 124px;
+  left: 24px;
+  width: 307px;
+  height: 150px;
+  padding-top: 24px;
+}
+
+.text p {
+  color: #344563;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  order: 1;
+  margin-bottom: 28px;
+  margin-top: 15px;
+  top: 276px;
+  left: 24px;
+  width: 307px;
+  height: 146px;
+}
+
+.text .social-text h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7f8cff;
+  line-height: 24px;
+  margin-top: 15px;
+  height: 24px;
+}
+
+/* SOCIAL MEDIA STYLING  */
+.text .social-media {
+  gap: 34px;
+}
+
+.text .social-media a img {
+  padding-top: 12px;
+  cursor: pointer;
+}
