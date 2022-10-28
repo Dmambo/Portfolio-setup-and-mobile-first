@@ -6,7 +6,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  
 }
 
 body {
@@ -17,7 +16,6 @@ body {
   background-position-y: 90%;
   width: 375px;
   height: 718px; 
-  
 }
 
 /* LOGO AND NAVBAR STYLING  */
@@ -40,9 +38,10 @@ header {
   width: 76px;
   height: 20px;
 }
+
 .logo a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 header.navbar i {
@@ -95,11 +94,10 @@ header.navbar i {
 
 /* SOCIAL MEDIA STYLING  */
 .text .social-media {
-    gap: 34px;
+  gap: 34px;
 }
 
 .text .social-media a img {
   padding-top: 12px;
   cursor: pointer;
 }
-
