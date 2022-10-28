@@ -54,7 +54,7 @@ a:hover {
   row-gap: 25px;
 }
 
-/* Css Styles for headline section */  
+/* Css Styles for headline section */
 .headline {
   padding: 25px;
   display: flex;
@@ -208,7 +208,7 @@ a:hover {
   background: #396df2;
 }
 
-/* Css styles for about section */ 
+/* Css styles for about section */
 .about {
   display: grid;
   row-gap: 15px;
