@@ -7,14 +7,15 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
-    justify-content: center;
-    align-items: center;
-    width: 375px;
-    height: 718px;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 718px;
 }
 
- /* LOGO AND NAVBAR STYLING  */
+/* LOGO AND NAVBAR STYLING  */
 .head {
   color: #6070ff;
   text-align: center;
@@ -53,6 +54,11 @@ header.navbar i {
   line-height: 52px;
   color: #172b4d;
   margin-bottom: 28px;
+  margin-top: 124px;
+  left: 24px;
+  width: 307px;
+  height: 150px;
+  padding-top: 24px;
 }
 
 .text p {
@@ -62,6 +68,11 @@ header.navbar i {
   line-height: 24px;
   order: 1;
   margin-bottom: 28px;
+  margin-top: 15px;
+  top: 276px;
+  left: 24px;
+  width: 307px;
+  height: 146px;
 }
 
 .text .social-text p {
@@ -69,6 +80,8 @@ header.navbar i {
   font-weight: 500;
   color: #7f8cff;
   line-height: 24px;
+  margin-top: 15px;
+  height: 24px;
 }
 
 .social-media ul li {
@@ -131,27 +144,6 @@ header.navbar i {
   height: 10px;
   left: 132.98px;
   top: 155.81px;
-}
-
-.text h1 {
-  margin-top: 124px;
-  left: 24px;
-  width: 307px;
-  height: 150px;
-  padding-top: 24px;
-}
-
-.text p {
-  margin-top: 15px;
-  top: 276px;
-  left: 24px;
-  width: 307px;
-  height: 146px;
-}
-
-.text .social-text p {
-  margin-top: 15px;
-  height: 24px;
 }
 
 .text .social-media ul li {
