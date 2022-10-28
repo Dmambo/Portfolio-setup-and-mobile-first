@@ -48,7 +48,7 @@ a:hover {
   height: auto;
 }
 
-/* Css styles for main_container */8
+/* Css styles for main_container */
 .main_container {
   display: grid;
   row-gap: 25px;
@@ -122,8 +122,6 @@ a:hover {
   border: 1px solid #c6c6c6;
   padding: 20px 15px;
   display: grid;
-  
-
 }
 
 .work_preview {
