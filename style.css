@@ -265,15 +265,9 @@ a:hover {
 .contact-form {
   background-image: url("./images/contact\ form\ shapes-mobile.png");
   background-repeat: no-repeat;
-  padding: 0;
   background-position: right;
   background-color: #6070ff;
-  height: 100vh;
-}
-
-.container {
-  /* margin-top: 50px; */
-  padding-top: 50px;
+  height: 779px;
 }
 
 .contact-text {
@@ -284,12 +278,15 @@ a:hover {
   padding-top: 80px;
   color: white;
   gap: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .contact-text h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
+  height: 56px;
 }
 
 .contact-text p {
@@ -309,7 +306,7 @@ a:hover {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin: 20px 24px;
-  padding: 15px 80px;
+  padding: 25px 70px;
   text-align: left;
 }
 
@@ -318,22 +315,6 @@ a:hover {
   border-radius: 8px;
   margin: 20px 24px;
   padding: 15px 80px;
-}
-
-.forms input:invalid {
-  border: 2px solid red;
-}
-
-.forms input:valid {
-  border: 2px solid green;
-}
-
-.forms textarea:invalid {
-  border: 2px solid red;
-}
-
-.forms textarea:valid {
-  border: 2px solid green;
 }
 
 .btn {
@@ -351,4 +332,12 @@ a:hover {
 .btn:hover {
   background-color: rgb(118, 190, 118);
   border: 1px solid rgb(118, 190, 118);
+}
+
+.homeslide {
+width: 134px;
+height: 5px;
+margin-right: 110px;
+margin-left: 150px;
+bottom: 8px;
 }
