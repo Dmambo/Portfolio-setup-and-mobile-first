@@ -422,10 +422,6 @@ a:hover {
     margin-left: 260px;
   }
 
-  .work .work_card {
-    display: flex;
-  }
-
   .about {
     margin-left: 142px;
     display: flex;
@@ -518,6 +514,10 @@ a:hover {
   .work_card {
     display: flex;
     flex-direction: row;
+  }
+  
+  .work .work_card {
+    display: flex;
   }
 
   .work_card:nth-child(even) .work_preview {
