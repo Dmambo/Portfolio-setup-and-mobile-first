@@ -51,6 +51,12 @@ a:hover {
   gap: 50px;
 }
 
+.social_link a {
+  width: 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 .header_menu .navlist {
   list-style: none;
   display: flex;
@@ -58,15 +64,12 @@ a:hover {
   font-size: 15px;
   align-items: center;
   text-align: center;
+  gap: 40px;
 }
 
 .header_menu .navlist a {
   text-decoration: none;
   color: black;
-}
-
-.header_menu .navlist {
-  gap: 40px;
 }
 
 .menu_icon {
@@ -116,12 +119,6 @@ a:hover {
   display: flex;
   list-style: none;
   margin-top: 10px;
-}
-
-.social_link a {
-  width: 15px;
-  margin-top: 10px;
-  margin-right: 10px;
 }
 
 .social_link a:hover {
@@ -208,7 +205,7 @@ a:hover {
   margin: 10px 0;
 }
 
-.work_cats>li {
+.work_cats li {
   padding: 8px;
   list-style: none;
   color: #6070ff;
@@ -398,7 +395,6 @@ a:hover {
     height: 122px;
     width: 525px;
     padding-right: 120px;
-
   }
 
   .headline_content {
@@ -420,7 +416,6 @@ a:hover {
     padding: 10px 20px;
     align-items: center;
     justify-content: space-between;
-
   }
 
   .headline_social {
@@ -487,6 +482,11 @@ a:hover {
     align-items: center;
     gap: 24px;
     padding: 0 54px;
+    background-image: url("./images/contactshape.svg");
+    background-repeat: no-repeat;
+    background-color: #6070ff;
+    background-size: cover;
+    background-position: right;
   }
 
   .contact-form .contacts {
@@ -511,24 +511,16 @@ a:hover {
     width: 120px;
   }
 
-  .contact-form {
-    background-image: url("./images/contactshape.svg");
-    background-repeat: no-repeat;
-    background-color: #6070ff;
-    background-size: cover;
-    background-position: right;
-  }
-
   .homeslide {
     visibility: collapse;
-  }
-
-  .work_card:nth-child(even) .work_preview {
-    order: 2;
   }
 
   .work_card {
     display: flex;
     flex-direction: row;
+  }
+
+  .work_card:nth-child(even) .work_preview {
+    order: 2;
   }
 }
