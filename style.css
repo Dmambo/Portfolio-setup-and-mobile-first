@@ -27,6 +27,11 @@ a:hover {
   padding: 10px 20px;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+}
+
+.navlist {
+  visibility: hidden;
 }
 
 .header_logo {
@@ -40,12 +45,34 @@ a:hover {
 }
 
 .header_menu {
+  display: flex;
+  justify-content: space-between;
   padding: 3px 5px;
+  gap: 50px;
+}
+
+.header_menu .navlist {
+  list-style: none;
+  display: flex;
+  font-weight: 500;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.header_menu .navlist a {
+  text-decoration: none;
+  color: black;
+}
+
+.header_menu .navlist {
+  gap: 40px;
 }
 
 .menu_icon {
   width: 24px;
   height: auto;
+  visibility: visible;
 }
 
 /* Css styles for main_container */
@@ -181,7 +208,7 @@ a:hover {
   margin: 10px 0;
 }
 
-.work_cats > li {
+.work_cats>li {
   padding: 8px;
   list-style: none;
   color: #6070ff;
@@ -340,4 +367,168 @@ a:hover {
   margin-right: 110px;
   margin-left: 150px;
   bottom: 8px;
+}
+
+/* DESKTOP VIEW  */
+@media screen and (min-width: 768px) {
+  .header_menu .menu_icon {
+    visibility: hidden;
+  }
+
+  .navlist {
+    visibility: visible;
+  }
+
+  .headline {
+    background-image: url("./images/Header\ bg@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .headline h1 {
+    display: inline-flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-top: 159px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    height: 122px;
+    width: 525px;
+    padding-right: 120px;
+
+  }
+
+  .headline_content {
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    margin-left: 260px;
+    margin-right: 260px;
+    padding: 5px 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 5px;
+  }
+
+  .header .header_nav {
+    display: flex;
+    min-height: 10vh;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .headline_social {
+    margin-left: 260px;
+  }
+
+  .work .work_card {
+    display: flex;
+  }
+
+  .about {
+    margin-left: 142px;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 150px;
+  }
+
+  .about .headline_title {
+    margin-left: 0;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    width: 147px;
+    height: 104px;
+  }
+
+  .about .about_ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lang_span {
+    display: flex;
+  }
+
+  .about .heaadlin {
+    margin-top: 12;
+    padding-top: 0;
+    gap: 20px;
+    width: 477px;
+    height: 102px;
+  }
+
+  .default_btn {
+    margin-bottom: 20px;
+  }
+
+  .blue {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .about .about_details {
+    width: 377px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 0 54px;
+  }
+
+  .contact-form .contacts {
+    width: 801px;
+  }
+
+  .contact-text p {
+    width: 550px;
+  }
+
+  .forms input {
+    border-radius: 0;
+  }
+
+  .forms textarea {
+    border-radius: 0;
+  }
+
+  .forms .btn {
+    margin: 0 35%;
+    padding-left: 20px;
+    width: 120px;
+  }
+
+  .contact-form {
+    background-image: url("./images/contactshape.svg");
+    background-repeat: no-repeat;
+    background-color: #6070ff;
+    background-size: cover;
+    background-position: right;
+  }
+
+  .homeslide {
+    visibility: collapse;
+  }
+
+  .work_card:nth-child(even) .work_preview {
+    order: 2;
+  }
+
+  .work_card {
+    display: flex;
+    flex-direction: row;
+  }
 }
