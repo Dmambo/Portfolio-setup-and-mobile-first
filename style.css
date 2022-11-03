@@ -24,31 +24,38 @@ a:hover {
 .header_nav {
   display: flex;
   min-height: 10vh;
-  padding: 10px 20px;
   align-items: center;
   justify-content: space-between;
   position: relative;
 }
 
 .navlist {
-  visibility: hidden;
+  visibility: collapse;
 }
 
 .header_logo {
-  font-size: 22px;
+  display: flex;
+  margin-left: 24px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 20px;
+  width: 106px;
 }
 
 .header_logo a {
   text-decoration: none;
 }
 
+.blue {
+  display: flex;
+  width: 96px;
+}
+
 .header_menu {
   display: flex;
   justify-content: space-between;
   padding: 3px 5px;
-  gap: 50px;
+  gap: 30px;
 }
 
 .social_link a {
@@ -64,7 +71,7 @@ a:hover {
   font-size: 15px;
   align-items: center;
   text-align: center;
-  gap: 40px;
+  gap: 30px;
 }
 
 .header_menu .navlist a {
@@ -483,6 +490,8 @@ a:hover {
     background-color: #6070ff;
     background-size: cover;
     background-position: right;
+    border-top-left-radius: 17%;
+    margin-top: 80px;
   }
 
   .contact-form .contacts {
@@ -514,6 +523,7 @@ a:hover {
   .work_card {
     display: flex;
     flex-direction: row;
+    gap: 40px;
   }
 
   .work .work_card {
