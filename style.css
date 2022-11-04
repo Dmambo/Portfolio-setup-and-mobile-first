@@ -413,7 +413,7 @@ a:hover {
     font-size: 48px;
     margin-top: 60px;
     margin-bottom: 20px;
-    font-weight: 700;   
+    font-weight: 700;
     line-height: 52px;
   }
   
@@ -422,7 +422,7 @@ a:hover {
     color: #344563;
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px
+    line-height: 28px;
   }
 
   .work {
@@ -503,7 +503,7 @@ a:hover {
     width: 569px;
   }
 
-  .form_container input{
+  .form_container input {
     width: 447px;
     height: 48px;
   }
