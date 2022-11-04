@@ -378,6 +378,7 @@ a:hover {
   margin-left: 80px;
 }
 
+/* DESKTOP VIEW  */
 @media screen and (min-width: 768px) {
   .header {
     padding: 0 50px;
@@ -406,6 +407,22 @@ a:hover {
     align-self: center;
     justify-self: center;
     max-width: 920px;
+  }
+
+  .headline_container .headline_title {
+    font-size: 48px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;   
+    line-height: 52px;
+  }
+  
+  .headline_content {
+    margin: 15px 0;
+    color: #344563;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px
   }
 
   .work {
@@ -461,7 +478,47 @@ a:hover {
   }
 
   .contact_container {
+    display: flex;
+    flex-direction: column;
     width: 500px;
     justify-self: center;
+    align-items: center;
+    margin-left: 150px;
+  }
+
+  .contact_container .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact_container .contact_form_des {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    width: 569px;
+  }
+
+  .form_container input{
+    width: 447px;
+    height: 48px;
+  }
+
+  .form_input,
+  .form_text_area {
+    border-radius: 0;
+  }
+
+  .btn_submit {
+    margin: 0 33%;
+    padding: 12px 16px;
+  }
+
+  .slide {
+    visibility: collapse;
   }
 }
