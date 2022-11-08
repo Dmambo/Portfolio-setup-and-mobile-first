@@ -401,6 +401,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 42px;
   }
 
   .headline_container {
