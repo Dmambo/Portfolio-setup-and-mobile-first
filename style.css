@@ -370,7 +370,7 @@ a:hover {
 
 .btn_submit:hover {
   color: #fff;
-  background: #6070ff;
+  background: #2230d2;
 }
 
 .slide {
@@ -401,6 +401,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 42px;
   }
 
   .headline_container {
